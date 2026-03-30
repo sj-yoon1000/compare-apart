@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-03-30T14:21",
+  "apartments": [
+    {
+      "id": "래미안원베일리_84A",
+      "name": "래미안 원베일리",
+      "region": "서울 서초구",
+      "address": "서초구 반포동 123",
+      "type": "84A",
+      "area_sqm": 84.98,
+      "built_year": 2023,
+      "total_units": 2990,
+      "gangnam_minutes": 12,
+      "gangnam_transport": "신분당선 직통",
+      "nearest_station": "반포역",
+      "station_walk_min": 5,
+      "mart": "이마트 트레이더스 (도보 10분)",
+      "commercial": "상가 밀집 (반포 상업지구)",
+      "nimby": "없음",
+      "schools": "반포초, 세화중, 서초고",
+      "map_image": "raemian_map.png",
+      "price_range": "10.0~11.0억",
+      "listings": [
+        {
+          "floor": "22/25",
+          "price": 11.0,
+          "memo": "남향 로열층 / 한강뷰",
+          "naver_url": "https://land.naver.com/1",
+          "is_low_floor": false
+        },
+        {
+          "floor": "15/25",
+          "price": 10.0,
+          "memo": "남향 / 올수리 완료",
+          "naver_url": "https://land.naver.com/4",
+          "is_low_floor": false
+        },
+        {
+          "floor": "3/25",
+          "price": 9.5,
+          "memo": "급매 / 즉시입주",
+          "naver_url": "https://land.naver.com/2",
+          "is_low_floor": true
+        }
+      ]
+    },
+    {
+      "id": "잠실엘스_59B",
+      "name": "잠실 엘스",
+      "region": "서울 송파구",
+      "address": "송파구 잠실동 1",
+      "type": "59B",
+      "area_sqm": 59.97,
+      "built_year": 2008,
+      "total_units": 5678,
+      "gangnam_minutes": 15,
+      "gangnam_transport": "2호선",
+      "nearest_station": "잠실역",
+      "station_walk_min": 3,
+      "mart": "롯데마트 (도보 5분)",
+      "commercial": "잠실 상권",
+      "nimby": "없음",
+      "schools": "잠실초, 잠실중",
+      "map_image": null,
+      "price_range": "10.0억",
+      "listings": [
+        {
+          "floor": "12/30",
+          "price": 10.0,
+          "memo": "정남향 / 깨끗한 상태",
+          "naver_url": "https://land.naver.com/3",
+          "is_low_floor": false
+        }
+      ]
+    }
+  ]
+}
