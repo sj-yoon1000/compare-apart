@@ -6,9 +6,9 @@
 
 **Architecture:** Python script converts Excel → JSON. Static HTML/CSS/JS frontend loads JSON and renders interactive apartment cards. FastAPI serves files locally; GitHub Pages for deployment.
 
-**Tech Stack:** Python 3, openpyxl, FastAPI, vanilla HTML/CSS/JS
+**Tech Stack:** Python 3, openpyxl, vanilla HTML/CSS/JS
 
-**Note:** Area type filtering (59/84 and below) is handled at Excel data-entry time, not in the conversion script.
+**Note:** Area type filtering (59/84 and below) and region filtering (Seoul/Gyeonggi) are both handled at Excel data-entry time, not in the conversion script.
 
 ---
 
@@ -26,7 +26,7 @@
 | `web/app.js` | Data loading, rendering, sorting, dropdown toggle |
 | `web/apartments.json` | Generated output (not hand-edited) |
 | `web/maps/` | Copied map images for deployment |
-| `server.py` | FastAPI static file server for local dev |
+| `server.py` | Local dev server (Python http.server) |
 | `requirements.txt` | Python dependencies |
 | `.gitignore` | Ignore .venv, .idea, __pycache__, .superpowers |
 
@@ -44,8 +44,6 @@
 
 ```
 openpyxl==3.1.5
-fastapi==0.115.0
-uvicorn==0.30.0
 pytest==8.3.0
 ```
 
@@ -265,10 +263,9 @@ def format_price_range(prices: list[float]) -> str | None:
 
 def load_and_convert(xlsx_path: Path) -> dict:
     """Excel 파일을 읽어 JSON 구조로 변환."""
-    wb = load_workbook(xlsx_path, read_only=True)
+    wb = load_workbook(xlsx_path)
     ws = wb.active
 
-    # Headers first, then data (read_only mode streams sequentially)
     headers = [cell.value for cell in next(ws.iter_rows(min_row=1, max_row=1))]
     rows = list(ws.iter_rows(min_row=2, values_only=True))
     wb.close()
@@ -563,7 +560,7 @@ body {
 .nimby-ok { color: #40c057; }
 
 /* Map Container */
-.map-container { width: 560px; flex-shrink: 0; }
+.map-container { max-width: 560px; width: 100%; flex-shrink: 0; }
 .map-image {
     width: 560px;
     height: 440px;
@@ -591,6 +588,7 @@ body {
     margin-top: 20px;
     padding-top: 16px;
     border-top: 1px solid #dee2e6;
+    overflow-x: auto;
 }
 .listing-table { width: 100%; border-collapse: collapse; font-size: 13px; }
 .listing-table th {
@@ -601,8 +599,7 @@ body {
     border-bottom: 2px solid #dee2e6;
 }
 .listing-table td { padding: 10px 12px; border-bottom: 1px solid #e9ecef; }
-.listing-table tr.low-floor { background: #fff5f5; }
-.listing-table tr.low-floor td { color: #ced4da; }
+.listing-table tr.low-floor { background: #fff5f5; opacity: 0.5; }
 .low-badge {
     font-size: 11px;
     background: #ffe3e3;
@@ -662,6 +659,23 @@ git commit -m "feat: HTML shell and CSS styles for apartment list UI"
 - [ ] **Step 1: Create app.js with all functionality**
 
 ```javascript
+// --- Utilities ---
+function escapeHtml(str) {
+    const div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+}
+
+function sanitizeUrl(url) {
+    if (!url) return '';
+    try {
+        const parsed = new URL(url);
+        return ['http:', 'https:'].includes(parsed.protocol) ? url : '';
+    } catch {
+        return '';
+    }
+}
+
 // --- Data Loading ---
 async function loadData() {
     const res = await fetch('apartments.json');
@@ -715,6 +729,7 @@ function renderApartments(apartments) {
         const listingCount = apt.listings.length;
         const card = document.createElement('div');
         card.className = 'card';
+        const e = escapeHtml;
         card.innerHTML = `
             <div class="card-header">
                 <div class="rank">
@@ -722,8 +737,8 @@ function renderApartments(apartments) {
                     <div class="rank-number">${index + 1}</div>
                 </div>
                 <div class="card-info">
-                    <div class="card-name">${apt.name}</div>
-                    <div class="card-sub">${apt.region} · ${apt.type} · ${apt.total_units.toLocaleString()}세대</div>
+                    <div class="card-name">${e(apt.name)}</div>
+                    <div class="card-sub">${e(apt.region)} · ${e(apt.type)} · ${apt.total_units.toLocaleString()}세대</div>
                 </div>
                 <div class="stat">
                     <div class="stat-label">강남역</div>
@@ -731,7 +746,7 @@ function renderApartments(apartments) {
                 </div>
                 <div class="stat">
                     <div class="stat-label">매매가</div>
-                    <div class="stat-value">${apt.price_range}</div>
+                    <div class="stat-value">${e(apt.price_range)}</div>
                 </div>
                 <div class="stat">
                     <div class="stat-label">매물</div>
@@ -745,34 +760,34 @@ function renderApartments(apartments) {
                         <div class="detail-grid">
                             <div>
                                 <div class="detail-section-title">교통</div>
-                                <div class="detail-item">🚇 강남역 <strong>${apt.gangnam_minutes}분</strong> (${apt.gangnam_transport})</div>
-                                <div class="detail-item">🚶 ${apt.nearest_station} 도보 <strong>${apt.station_walk_min}분</strong></div>
+                                <div class="detail-item">🚇 강남역 <strong>${apt.gangnam_minutes}분</strong> (${e(apt.gangnam_transport)})</div>
+                                <div class="detail-item">🚶 ${e(apt.nearest_station)} 도보 <strong>${apt.station_walk_min}분</strong></div>
                             </div>
                             <div>
                                 <div class="detail-section-title">단지 정보</div>
-                                <div class="detail-item">📐 전용 ${apt.area_sqm}㎡ (${apt.type}타입)</div>
+                                <div class="detail-item">📐 전용 ${apt.area_sqm}㎡ (${e(apt.type)}타입)</div>
                                 <div class="detail-item">🏢 ${apt.built_year}년 입주</div>
                                 <div class="detail-item">🏘️ 총 ${apt.total_units.toLocaleString()}세대</div>
                             </div>
                             <div>
                                 <div class="detail-section-title">주변환경</div>
-                                <div class="detail-item">🛒 ${apt.mart || '정보 없음'}</div>
-                                <div class="detail-item">🏪 ${apt.commercial || '정보 없음'}</div>
-                                <div class="detail-item ${apt.nimby === '없음' ? 'nimby-ok' : ''}">${apt.nimby === '없음' ? '✅ 혐오시설 없음' : '⚠️ ' + apt.nimby}</div>
+                                <div class="detail-item">🛒 ${e(apt.mart || '정보 없음')}</div>
+                                <div class="detail-item">🏪 ${e(apt.commercial || '정보 없음')}</div>
+                                <div class="detail-item ${apt.nimby === '없음' ? 'nimby-ok' : ''}">${apt.nimby === '없음' ? '✅ 혐오시설 없음' : '⚠️ ' + e(apt.nimby)}</div>
                             </div>
                             <div>
                                 <div class="detail-section-title">학교</div>
-                                <div class="detail-item">🏫 ${apt.schools || '정보 없음'}</div>
+                                <div class="detail-item">🏫 ${e(apt.schools || '정보 없음')}</div>
                             </div>
                         </div>
                     </div>
                     <div class="map-container">
                         <div class="detail-section-title">강남역 대중교통 경로</div>
                         ${apt.map_image
-                            ? `<img class="map-image" src="maps/${apt.map_image}" alt="${apt.name} → 강남역 경로">`
+                            ? `<img class="map-image" src="maps/${encodeURIComponent(apt.map_image)}" alt="${e(apt.name)} → 강남역 경로">`
                             : '<div class="map-placeholder">🗺️ 지도 없음</div>'
                         }
-                        <div class="map-caption">${apt.name} → 강남역 · 대중교통 ${apt.gangnam_minutes}분</div>
+                        <div class="map-caption">${e(apt.name)} → 강남역 · 대중교통 ${apt.gangnam_minutes}분</div>
                     </div>
                 </div>
                 <div class="listings-section">
@@ -787,14 +802,16 @@ function renderApartments(apartments) {
                             </tr>
                         </thead>
                         <tbody>
-                            ${apt.listings.map(l => `
+                            ${apt.listings.map(l => {
+                                const safeUrl = sanitizeUrl(l.naver_url);
+                                return `
                                 <tr class="${l.is_low_floor ? 'low-floor' : ''}">
-                                    <td><strong>${l.floor}</strong>${l.is_low_floor ? '<span class="low-badge">저층</span>' : ''}</td>
+                                    <td><strong>${e(l.floor)}</strong>${l.is_low_floor ? '<span class="low-badge">저층</span>' : ''}</td>
                                     <td class="listing-price">${l.price}억</td>
-                                    <td class="listing-memo">${l.memo}</td>
-                                    <td>${l.naver_url ? `<a class="listing-link" href="${l.naver_url}" target="_blank">🔗</a>` : ''}</td>
-                                </tr>
-                            `).join('')}
+                                    <td class="listing-memo">${e(l.memo)}</td>
+                                    <td>${safeUrl ? `<a class="listing-link" href="${safeUrl}" target="_blank" rel="noopener">🔗</a>` : ''}</td>
+                                </tr>`;
+                            }).join('')}
                         </tbody>
                     </table>
                     <div class="listings-note">* 저층(5층 이하) 매물은 매매가 범위에 포함되지 않습니다</div>
@@ -821,7 +838,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     renderApartments(apartments);
 
     document.getElementById('footer').textContent =
-        `최종 업데이트: ${data.generated_at}`;
+        `최종 업데이트: ${data.generated_at.replace('T', ' ')}`;
 
     document.getElementById('sort-select').addEventListener('change', (e) => {
         sortApartments(apartments, e.target.value);
@@ -849,39 +866,36 @@ git commit -m "feat: JavaScript for data loading, rendering, sorting, and dropdo
 
 ---
 
-### Task 5: FastAPI Local Development Server
+### Task 5: Local Development Server
 
 **Files:**
 - Create: `server.py`
 
 - [ ] **Step 1: Create server.py**
 
+Uses Python's built-in `http.server` — no extra dependencies needed.
+
 ```python
 # server.py
 """Local development server for Compare Apart."""
-from pathlib import Path
+import http.server
+import os
 
-import uvicorn
-from fastapi import FastAPI
-from fastapi.staticfiles import StaticFiles
-
-app = FastAPI()
-app.mount("/", StaticFiles(directory=Path(__file__).parent / "web", html=True))
-
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+os.chdir(os.path.join(os.path.dirname(__file__), "web"))
+print("Serving at http://0.0.0.0:8000")
+http.server.HTTPServer(("0.0.0.0", 8000), http.server.SimpleHTTPRequestHandler).serve_forever()
 ```
 
 - [ ] **Step 2: Run and verify**
 
-Run: `cd /Users/user/PycharmProjects/compare-apart && source .venv/bin/activate && python server.py`
+Run: `cd /Users/user/PycharmProjects/compare-apart && python server.py`
 Expected: Server starts on http://0.0.0.0:8000, page loads with apartment cards.
 
 - [ ] **Step 3: Commit**
 
 ```bash
 git add server.py
-git commit -m "feat: FastAPI local dev server"
+git commit -m "feat: local dev server using http.server"
 ```
 
 ---
