@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-30T14:43",
+  "generated_at": "2026-03-30T15:37",
   "apartments": [
     {
       "id": "힐스테이트영통_62A",
@@ -18,7 +18,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "힐스테이트영통.png",
       "price_range": "9.5~9.7억",
       "listings": [
         {
@@ -75,7 +75,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "힐스테이트영통.png",
       "price_range": "10.7~11.3억",
       "listings": [
         {
@@ -125,7 +125,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "이편한세상센트레빌.png",
       "price_range": "10.9~11.3억",
       "listings": [
         {
@@ -217,7 +217,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "미사강변_센텀팰리스.png",
       "price_range": "11.4억",
       "listings": [
         {
@@ -260,7 +260,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "평촌어바인퍼스트.png",
       "price_range": "10.0~10.3억",
       "listings": [
         {
@@ -296,7 +296,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "평촌어바인퍼스트.png",
       "price_range": "11.0~11.3억",
       "listings": [
         {
@@ -367,7 +367,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "평촌어바인퍼스트.png",
       "price_range": "11.5억",
       "listings": [
         {
@@ -396,7 +396,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "동탄역_시범우남퍼스트빌아파트.png",
       "price_range": "10.9~11.0억",
       "listings": [
         {
@@ -460,7 +460,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "동탄역_시범우남퍼스트빌아파트.png",
       "price_range": "11.0억",
       "listings": [
         {
@@ -489,7 +489,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "동탄역_시범우남퍼스트빌아파트.png",
       "price_range": "9.8~10.1억",
       "listings": [
         {
@@ -532,7 +532,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "신흥역하늘채랜더스원1단지.png",
       "price_range": "10.5~10.8억",
       "listings": [
         {
@@ -617,7 +617,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "신흥역하늘채랜더스원1단지.png",
       "price_range": "11.0억",
       "listings": [
         {
@@ -646,7 +646,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "동천자이.png",
       "price_range": "10.4~11.5억",
       "listings": [
         {
@@ -759,7 +759,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "동천자이.png",
       "price_range": "9.8~10.4억",
       "listings": [
         {
@@ -816,7 +816,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "동탄역시범호반써밋.png",
       "price_range": "10.3~11.3억",
       "listings": [
         {
@@ -964,7 +964,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "동탄역시범호반써밋.png",
       "price_range": "10.7~11.1억",
       "listings": [
         {
@@ -1007,7 +1007,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "래미안안양메가트리아.png",
       "price_range": "9.7~10.5억",
       "listings": [
         {
@@ -1274,7 +1274,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "산성역포레스티아.png",
       "price_range": "11.3~11.5억",
       "listings": [
         {
@@ -1345,7 +1345,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "산성역포레스티아.png",
       "price_range": "10.8~10.8억",
       "listings": [
         {
@@ -1388,7 +1388,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "지축역센트럴푸르지오.png",
       "price_range": "9.5~9.6억",
       "listings": [
         {
@@ -1431,7 +1431,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "지축역센트럴푸르지오.png",
       "price_range": "10.1~10.4억",
       "listings": [
         {
@@ -1537,7 +1537,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "성복역롯데캐슬클라시엘.png",
       "price_range": "11.5억",
       "listings": [
         {
@@ -1580,7 +1580,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "래미안하이어스.png",
       "price_range": "9.5~10.8억",
       "listings": [
         {
@@ -1770,7 +1770,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "미사레스티아.png",
       "price_range": "10.5~11.5억",
       "listings": [
         {
@@ -1876,7 +1876,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "미사레스티아.png",
       "price_range": "10.0억",
       "listings": [
         {
@@ -1905,7 +1905,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "평촌자이아이파크.png",
       "price_range": "10.0~11.3억",
       "listings": [
         {
@@ -1997,7 +1997,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "평촌자이아이파크.png",
       "price_range": "9.7~10.5억",
       "listings": [
         {
@@ -2047,7 +2047,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "의왕내손e편한세상.png",
       "price_range": "10.2~10.6억",
       "listings": [
         {
@@ -2083,7 +2083,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "의왕내손e편한세상.png",
       "price_range": "9.5~9.8억",
       "listings": [
         {
@@ -2126,7 +2126,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "의왕내손e편한세상.png",
       "price_range": "9.9~11.0억",
       "listings": [
         {
@@ -2183,7 +2183,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "의왕내손e편한세상.png",
       "price_range": "10.0억",
       "listings": [
         {
@@ -2219,7 +2219,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "주공13.png",
       "price_range": "11.0억",
       "listings": [
         {
@@ -2255,7 +2255,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "주공13.png",
       "price_range": "11.0억",
       "listings": [
         {
@@ -2291,7 +2291,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "래미안장안2차.png",
       "price_range": "10.8~11.5억",
       "listings": [
         {
@@ -2334,7 +2334,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "래미안장안2차.png",
       "price_range": "10.9~11.0억",
       "listings": [
         {
@@ -2377,7 +2377,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "북한산푸르지오.png",
       "price_range": "10.8~11.5억",
       "listings": [
         {
@@ -2448,7 +2448,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "힐스테이트다산.png",
       "price_range": "9.5~10.6억",
       "listings": [
         {
@@ -2624,7 +2624,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "등촌동아이파크.png",
       "price_range": "10.5~10.9억",
       "listings": [
         {
@@ -2681,7 +2681,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "삼익파크맨션.png",
       "price_range": "11.5억",
       "listings": [
         {
@@ -2710,7 +2710,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "힐스테이트중동.png",
       "price_range": "10.4~11.3억",
       "listings": [
         {
@@ -2788,7 +2788,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "월계센트럴아이파크.png",
       "price_range": "10.9~11.5억",
       "listings": [
         {
@@ -2873,7 +2873,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "삼환.png",
       "price_range": "9.8~10.6억",
       "listings": [
         {
@@ -2958,7 +2958,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "현대.png",
       "price_range": "10.0~11.1억",
       "listings": [
         {
@@ -3001,7 +3001,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "독립문삼호.png",
       "price_range": "9.7~10.0억",
       "listings": [
         {
@@ -3058,7 +3058,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "독립문삼호.png",
       "price_range": "10.3~10.6억",
       "listings": [
         {
@@ -3115,7 +3115,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "롯데캐슬.png",
       "price_range": "11.0~11.5억",
       "listings": [
         {
@@ -3186,7 +3186,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "금천롯데캐슬골드파크1차.png",
       "price_range": "10.8억",
       "listings": [
         {
@@ -3222,7 +3222,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "금천롯데캐슬골드파크1차.png",
       "price_range": "11.3억",
       "listings": [
         {
@@ -3279,7 +3279,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "금천롯데캐슬골드파크1차.png",
       "price_range": "10.9~11.4억",
       "listings": [
         {
@@ -3315,7 +3315,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "길음뉴타운4단지_e편한세상_.png",
       "price_range": "11.1억",
       "listings": [
         {
@@ -3351,7 +3351,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "우성.png",
       "price_range": "11.4억",
       "listings": [
         {
@@ -3394,7 +3394,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "관악푸르지오.png",
       "price_range": "11.4~11.5억",
       "listings": [
         {
@@ -3444,7 +3444,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "명일지에스아파트.png",
       "price_range": "9.8~10.4억",
       "listings": [
         {
@@ -3522,7 +3522,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "명일지에스아파트.png",
       "price_range": "9.7~9.9억",
       "listings": [
         {
@@ -3558,7 +3558,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "백련산에스케이뷰아이파크.png",
       "price_range": "11.3~11.5억",
       "listings": [
         {
@@ -3629,7 +3629,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "두산.png",
       "price_range": "10.4~10.6억",
       "listings": [
         {
@@ -3693,7 +3693,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "두산.png",
       "price_range": "10.1~10.2억",
       "listings": [
         {
@@ -3743,7 +3743,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "태릉해링턴플레이스.png",
       "price_range": "10.2~10.6억",
       "listings": [
         {
@@ -3807,7 +3807,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "태릉해링턴플레이스.png",
       "price_range": "11.2억",
       "listings": [
         {
@@ -3857,7 +3857,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "한양수자인사가정파크.png",
       "price_range": "11.2~11.3억",
       "listings": [
         {
@@ -3900,7 +3900,7 @@
       "commercial": "",
       "nimby": "없음",
       "schools": "",
-      "map_image": null,
+      "map_image": "한양수자인사가정파크.png",
       "price_range": "9.8~9.9억",
       "listings": [
         {
