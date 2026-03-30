@@ -46,6 +46,7 @@
 openpyxl==3.1.5
 fastapi==0.115.0
 uvicorn==0.30.0
+pytest==8.3.0
 ```
 
 - [ ] **Step 2: Create .gitignore**
@@ -224,9 +225,9 @@ def test_generated_at_present(sample_xlsx):
 Run: `cd /Users/user/PycharmProjects/compare-apart && source .venv/bin/activate && python -m pytest tests/ -v`
 Expected: All 9 tests FAIL (ImportError — convert module doesn't exist yet)
 
-- [ ] **Step 4: Create scripts/__init__.py**
+- [ ] **Step 4: Create scripts/__init__.py and tests/__init__.py**
 
-Empty file to make scripts a package for imports.
+Empty files to make both directories importable as packages.
 
 - [ ] **Step 5: Implement convert.py**
 
