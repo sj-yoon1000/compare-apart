@@ -1,74 +1,3927 @@
 {
-  "generated_at": "2026-03-30T14:21",
+  "generated_at": "2026-03-30T14:43",
   "apartments": [
     {
-      "id": "래미안원베일리_84A",
-      "name": "래미안 원베일리",
-      "region": "서울 서초구",
-      "address": "서초구 반포동 123",
-      "type": "84A",
-      "area_sqm": 84.98,
-      "built_year": 2023,
-      "total_units": 2990,
-      "gangnam_minutes": 12,
-      "gangnam_transport": "신분당선 직통",
-      "nearest_station": "반포역",
+      "id": "힐스테이트영통_62A",
+      "name": "힐스테이트영통",
+      "region": "경기 수원시 영통구 망포동",
+      "address": "수원시 영통구 망포동 덕영대로 1462-14",
+      "type": "62A",
+      "area_sqm": 62.5963,
+      "built_year": 2017,
+      "total_units": 1380,
+      "gangnam_minutes": 60,
+      "gangnam_transport": "분당선→신분당선",
+      "nearest_station": "망포역",
       "station_walk_min": 5,
-      "mart": "이마트 트레이더스 (도보 10분)",
-      "commercial": "상가 밀집 (반포 상업지구)",
+      "mart": "",
+      "commercial": "",
       "nimby": "없음",
-      "schools": "반포초, 세화중, 서초고",
-      "map_image": "raemian_map.png",
-      "price_range": "10.0~11.0억",
+      "schools": "",
+      "map_image": null,
+      "price_range": "9.5~9.7억",
       "listings": [
         {
-          "floor": "22/25",
-          "price": 11.0,
-          "memo": "남향 로열층 / 한강뷰",
-          "naver_url": "https://land.naver.com/1",
+          "floor": "2/",
+          "price": 9.75,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "6/",
+          "price": 9.74,
+          "memo": "실거래가 기준",
+          "naver_url": "",
           "is_low_floor": false
         },
         {
-          "floor": "15/25",
-          "price": 10.0,
-          "memo": "남향 / 올수리 완료",
-          "naver_url": "https://land.naver.com/4",
-          "is_low_floor": false
-        },
-        {
-          "floor": "3/25",
+          "floor": "22/",
           "price": 9.5,
-          "memo": "급매 / 즉시입주",
-          "naver_url": "https://land.naver.com/2",
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "12/",
+          "price": 9.6,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "6/",
+          "price": 9.64,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "힐스테이트영통_71A",
+      "name": "힐스테이트영통",
+      "region": "경기 수원시 영통구 망포동",
+      "address": "수원시 영통구 망포동 덕영대로 1462-14",
+      "type": "71A",
+      "area_sqm": 71.2981,
+      "built_year": 2017,
+      "total_units": 1380,
+      "gangnam_minutes": 60,
+      "gangnam_transport": "분당선→신분당선",
+      "nearest_station": "망포역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "10.7~11.3억",
+      "listings": [
+        {
+          "floor": "23/",
+          "price": 11.28,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "21/",
+          "price": 11.3,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "8/",
+          "price": 10.77,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "11/",
+          "price": 10.7,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "이편한세상센트레빌_84A",
+      "name": "이편한세상센트레빌",
+      "region": "경기 광명시 하안동",
+      "address": "광명시 하안동 오리로 801",
+      "type": "84A",
+      "area_sqm": 84.981,
+      "built_year": 2010,
+      "total_units": 1290,
+      "gangnam_minutes": 40,
+      "gangnam_transport": "7호선→2호선",
+      "nearest_station": "철산역",
+      "station_walk_min": 10,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "10.9~11.3억",
+      "listings": [
+        {
+          "floor": "25/",
+          "price": 11.2,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "2/",
+          "price": 11.15,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "10/",
+          "price": 10.9,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "17/",
+          "price": 11.3,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "3/",
+          "price": 11.25,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "23/",
+          "price": 11.1,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "22/",
+          "price": 11.3,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "1/",
+          "price": 9.8,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "28/",
+          "price": 10.88,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "9/",
+          "price": 10.9,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "미사강변센텀팰리스_84A",
+      "name": "미사강변 센텀팰리스",
+      "region": "경기 하남시 망월동",
+      "address": "하남시 망월동 미사강변서로 127",
+      "type": "84A",
+      "area_sqm": 84.67,
+      "built_year": 2016,
+      "total_units": 1185,
+      "gangnam_minutes": 50,
+      "gangnam_transport": "5호선→2호선",
+      "nearest_station": "미사역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "11.4억",
+      "listings": [
+        {
+          "floor": "14/",
+          "price": 11.4,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "5/",
+          "price": 11.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "3/",
+          "price": 11.4,
+          "memo": "실거래가 기준",
+          "naver_url": "",
           "is_low_floor": true
         }
       ]
     },
     {
-      "id": "잠실엘스_59B",
-      "name": "잠실 엘스",
-      "region": "서울 송파구",
-      "address": "송파구 잠실동 1",
-      "type": "59B",
-      "area_sqm": 59.97,
-      "built_year": 2008,
-      "total_units": 5678,
-      "gangnam_minutes": 15,
-      "gangnam_transport": "2호선",
-      "nearest_station": "잠실역",
-      "station_walk_min": 3,
-      "mart": "롯데마트 (도보 5분)",
-      "commercial": "잠실 상권",
+      "id": "평촌어바인퍼스트_74A",
+      "name": "평촌어바인퍼스트",
+      "region": "경기 안양시 동안구 호계동",
+      "address": "안양시 동안구 호계동 경수대로 581",
+      "type": "74A",
+      "area_sqm": 74.69,
+      "built_year": 2021,
+      "total_units": 1065,
+      "gangnam_minutes": 35,
+      "gangnam_transport": "4호선→2호선",
+      "nearest_station": "범계역",
+      "station_walk_min": 7,
+      "mart": "",
+      "commercial": "",
       "nimby": "없음",
-      "schools": "잠실초, 잠실중",
+      "schools": "",
+      "map_image": null,
+      "price_range": "10.0~10.3억",
+      "listings": [
+        {
+          "floor": "23/",
+          "price": 10.3,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "23/",
+          "price": 10.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "평촌어바인퍼스트_84A",
+      "name": "평촌어바인퍼스트",
+      "region": "경기 안양시 동안구 호계동",
+      "address": "안양시 동안구 호계동 경수대로 581",
+      "type": "84A",
+      "area_sqm": 84.6,
+      "built_year": 2021,
+      "total_units": 1065,
+      "gangnam_minutes": 35,
+      "gangnam_transport": "4호선→2호선",
+      "nearest_station": "범계역",
+      "station_walk_min": 7,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "11.0~11.3억",
+      "listings": [
+        {
+          "floor": "4/",
+          "price": 11.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "1/",
+          "price": 10.2,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "18/",
+          "price": 11.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "13/",
+          "price": 11.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "10/",
+          "price": 11.3,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "6/",
+          "price": 11.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "19/",
+          "price": 11.07,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "평촌어바인퍼스트_84A",
+      "name": "평촌어바인퍼스트",
+      "region": "경기 안양시 동안구 호계동",
+      "address": "안양시 동안구 호계동 경수대로 583",
+      "type": "84A",
+      "area_sqm": 84.6,
+      "built_year": 2021,
+      "total_units": 1065,
+      "gangnam_minutes": 35,
+      "gangnam_transport": "4호선→2호선",
+      "nearest_station": "범계역",
+      "station_walk_min": 7,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "11.5억",
+      "listings": [
+        {
+          "floor": "7/",
+          "price": 11.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "동탄역시범우남퍼스트빌아파트_84A",
+      "name": "동탄역 시범우남퍼스트빌아파트",
+      "region": "경기 화성시 동탄구 청계동",
+      "address": "화성시 동탄구 청계동 동탄대로시범길 276",
+      "type": "84A",
+      "area_sqm": 84.94,
+      "built_year": 2015,
+      "total_units": 1035,
+      "gangnam_minutes": 55,
+      "gangnam_transport": "SRT→지하철",
+      "nearest_station": "동탄역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "10.9~11.0억",
+      "listings": [
+        {
+          "floor": "3/",
+          "price": 11.3,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "3/",
+          "price": 11.3,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "37/",
+          "price": 11.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "2/",
+          "price": 10.75,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "31/",
+          "price": 11.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "7/",
+          "price": 10.9,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "동탄역시범우남퍼스트빌아파트_84A",
+      "name": "동탄역 시범우남퍼스트빌아파트",
+      "region": "경기 화성시 동탄구 청계동",
+      "address": "화성시 동탄구 청계동 276",
+      "type": "84A",
+      "area_sqm": 84.98,
+      "built_year": 2015,
+      "total_units": 1035,
+      "gangnam_minutes": 55,
+      "gangnam_transport": "SRT→지하철",
+      "nearest_station": "동탄역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "11.0억",
+      "listings": [
+        {
+          "floor": "13/",
+          "price": 11.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "동탄역시범우남퍼스트빌아파트_73A",
+      "name": "동탄역 시범우남퍼스트빌아파트",
+      "region": "경기 화성시 동탄구 청계동",
+      "address": "화성시 동탄구 청계동 동탄대로시범길 276",
+      "type": "73A",
+      "area_sqm": 73.96,
+      "built_year": 2015,
+      "total_units": 1035,
+      "gangnam_minutes": 55,
+      "gangnam_transport": "SRT→지하철",
+      "nearest_station": "동탄역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "9.8~10.1억",
+      "listings": [
+        {
+          "floor": "20/",
+          "price": 9.8,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "13/",
+          "price": 10.05,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "18/",
+          "price": 10.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "신흥역하늘채랜더스원1단지_74A",
+      "name": "신흥역하늘채랜더스원1단지",
+      "region": "경기 성남시 중원구 중앙동",
+      "address": "성남시 중원구 중앙동 광명로 176",
+      "type": "74A",
+      "area_sqm": 74.97,
+      "built_year": 2022,
+      "total_units": 1020,
+      "gangnam_minutes": 30,
+      "gangnam_transport": "8호선→2호선",
+      "nearest_station": "신흥역",
+      "station_walk_min": 3,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "10.5~10.8억",
+      "listings": [
+        {
+          "floor": "1/",
+          "price": 10.1,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "5/",
+          "price": 10.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "16/",
+          "price": 10.75,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "9/",
+          "price": 10.85,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "12/",
+          "price": 10.8,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "8/",
+          "price": 10.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "5/",
+          "price": 10.25,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "11/",
+          "price": 10.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "4/",
+          "price": 10.3,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        }
+      ]
+    },
+    {
+      "id": "신흥역하늘채랜더스원1단지_84A",
+      "name": "신흥역하늘채랜더스원1단지",
+      "region": "경기 성남시 중원구 중앙동",
+      "address": "성남시 중원구 중앙동 광명로 176",
+      "type": "84A",
+      "area_sqm": 84.99,
+      "built_year": 2022,
+      "total_units": 1020,
+      "gangnam_minutes": 30,
+      "gangnam_transport": "8호선→2호선",
+      "nearest_station": "신흥역",
+      "station_walk_min": 3,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "11.0억",
+      "listings": [
+        {
+          "floor": "12/",
+          "price": 11.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "동천자이_84A",
+      "name": "동천자이",
+      "region": "경기 용인시 수지구 동천동",
+      "address": "용인시 수지구 동천동 고기로 89",
+      "type": "84A",
+      "area_sqm": 84.9554,
+      "built_year": 2018,
+      "total_units": 1005,
+      "gangnam_minutes": 45,
+      "gangnam_transport": "신분당선 직통",
+      "nearest_station": "동천역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "10.4~11.5억",
+      "listings": [
+        {
+          "floor": "17/",
+          "price": 10.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "31/",
+          "price": 11.4,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "9/",
+          "price": 11.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "32/",
+          "price": 11.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "11/",
+          "price": 11.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "24/",
+          "price": 11.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "19/",
+          "price": 11.25,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "8/",
+          "price": 11.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "34/",
+          "price": 11.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "31/",
+          "price": 10.65,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "34/",
+          "price": 10.4,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "26/",
+          "price": 10.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "7/",
+          "price": 10.45,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "동천자이_74A",
+      "name": "동천자이",
+      "region": "경기 용인시 수지구 동천동",
+      "address": "용인시 수지구 동천동 고기로 89",
+      "type": "74A",
+      "area_sqm": 74.8994,
+      "built_year": 2018,
+      "total_units": 1005,
+      "gangnam_minutes": 45,
+      "gangnam_transport": "신분당선 직통",
+      "nearest_station": "동천역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "9.8~10.4억",
+      "listings": [
+        {
+          "floor": "36/",
+          "price": 10.45,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "10/",
+          "price": 10.25,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "35/",
+          "price": 9.8,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "13/",
+          "price": 9.95,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "4/",
+          "price": 9.65,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        }
+      ]
+    },
+    {
+      "id": "동탄역시범호반써밋_84A",
+      "name": "동탄역시범호반써밋",
+      "region": "경기 화성시 동탄구 청계동",
+      "address": "화성시 동탄구 청계동 122",
+      "type": "84A",
+      "area_sqm": 84.9537,
+      "built_year": 2015,
+      "total_units": 975,
+      "gangnam_minutes": 55,
+      "gangnam_transport": "SRT→지하철",
+      "nearest_station": "동탄역",
+      "station_walk_min": 3,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "10.3~11.3억",
+      "listings": [
+        {
+          "floor": "2/",
+          "price": 10.98,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "5/",
+          "price": 10.58,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "6/",
+          "price": 11.15,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "13/",
+          "price": 11.29,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "24/",
+          "price": 10.45,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "5/",
+          "price": 11.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "21/",
+          "price": 11.2,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "9/",
+          "price": 11.18,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "28/",
+          "price": 10.7,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "18/",
+          "price": 11.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "15/",
+          "price": 11.1,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "3/",
+          "price": 10.6,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "4/",
+          "price": 10.4,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "18/",
+          "price": 10.65,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "20/",
+          "price": 10.98,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "20/",
+          "price": 10.98,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "16/",
+          "price": 11.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "13/",
+          "price": 10.35,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "동탄역시범호반써밋_84A",
+      "name": "동탄역시범호반써밋",
+      "region": "경기 화성시 동탄구 청계동",
+      "address": "화성시 동탄구 청계동 동탄대로시범길 122",
+      "type": "84A",
+      "area_sqm": 84.9698,
+      "built_year": 2015,
+      "total_units": 975,
+      "gangnam_minutes": 55,
+      "gangnam_transport": "SRT→지하철",
+      "nearest_station": "동탄역",
+      "station_walk_min": 3,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "10.7~11.1억",
+      "listings": [
+        {
+          "floor": "23/",
+          "price": 11.05,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "27/",
+          "price": 10.8,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "6/",
+          "price": 10.65,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "래미안안양메가트리아_84A",
+      "name": "래미안안양메가트리아",
+      "region": "경기 안양시 만안구 안양동",
+      "address": "안양시 만안구 안양동 안양천서로 177",
+      "type": "84A",
+      "area_sqm": 84.7,
+      "built_year": 2016,
+      "total_units": 960,
+      "gangnam_minutes": 30,
+      "gangnam_transport": "1호선→2호선",
+      "nearest_station": "안양역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "9.7~10.5억",
+      "listings": [
+        {
+          "floor": "8/",
+          "price": 10.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "8/",
+          "price": 10.37,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "7/",
+          "price": 10.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "9/",
+          "price": 10.47,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "17/",
+          "price": 10.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "16/",
+          "price": 10.3,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "24/",
+          "price": 10.1,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "20/",
+          "price": 9.7,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "26/",
+          "price": 10.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "10/",
+          "price": 9.78,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "11/",
+          "price": 10.3,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "20/",
+          "price": 10.2,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "6/",
+          "price": 9.7,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "26/",
+          "price": 10.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "2/",
+          "price": 9.6,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "11/",
+          "price": 10.35,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "6/",
+          "price": 10.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "3/",
+          "price": 9.7,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "17/",
+          "price": 10.3,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "6/",
+          "price": 10.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "17/",
+          "price": 10.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "20/",
+          "price": 10.25,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "24/",
+          "price": 10.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "28/",
+          "price": 9.9,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "25/",
+          "price": 10.15,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "8/",
+          "price": 10.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "24/",
+          "price": 9.85,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "25/",
+          "price": 10.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "29/",
+          "price": 10.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "6/",
+          "price": 9.7,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "6/",
+          "price": 9.7,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "8/",
+          "price": 10.15,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "14/",
+          "price": 10.15,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "14/",
+          "price": 10.15,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "27/",
+          "price": 10.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "산성역포레스티아_74A",
+      "name": "산성역포레스티아",
+      "region": "경기 성남시 수정구 신흥동",
+      "address": "성남시 수정구 신흥동 수정로 319",
+      "type": "74A",
+      "area_sqm": 74.98,
+      "built_year": 2020,
+      "total_units": 900,
+      "gangnam_minutes": 30,
+      "gangnam_transport": "8호선→2호선",
+      "nearest_station": "산성역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "11.3~11.5억",
+      "listings": [
+        {
+          "floor": "6/",
+          "price": 11.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "16/",
+          "price": 11.35,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "11/",
+          "price": 11.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "4/",
+          "price": 11.45,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "3/",
+          "price": 11.05,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "18/",
+          "price": 11.35,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "6/",
+          "price": 11.3,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "산성역포레스티아_67A",
+      "name": "산성역포레스티아",
+      "region": "경기 성남시 수정구 신흥동",
+      "address": "성남시 수정구 신흥동 수정로 319",
+      "type": "67A",
+      "area_sqm": 67.86,
+      "built_year": 2020,
+      "total_units": 900,
+      "gangnam_minutes": 30,
+      "gangnam_transport": "8호선→2호선",
+      "nearest_station": "산성역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "10.8~10.8억",
+      "listings": [
+        {
+          "floor": "6/",
+          "price": 10.8,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "18/",
+          "price": 10.75,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "3/",
+          "price": 11.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        }
+      ]
+    },
+    {
+      "id": "지축역센트럴푸르지오_78A",
+      "name": "지축역센트럴푸르지오",
+      "region": "경기 고양시 덕양구 지축동",
+      "address": "고양시 덕양구 지축동 지축로 55",
+      "type": "78A",
+      "area_sqm": 78.3947,
+      "built_year": 2019,
+      "total_units": 885,
+      "gangnam_minutes": 50,
+      "gangnam_transport": "3호선→2호선",
+      "nearest_station": "지축역",
+      "station_walk_min": 3,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "9.5~9.6억",
+      "listings": [
+        {
+          "floor": "24/",
+          "price": 9.6,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "8/",
+          "price": 9.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "19/",
+          "price": 9.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "지축역센트럴푸르지오_84A",
+      "name": "지축역센트럴푸르지오",
+      "region": "경기 고양시 덕양구 지축동",
+      "address": "고양시 덕양구 지축동 지축로 55",
+      "type": "84A",
+      "area_sqm": 84.9621,
+      "built_year": 2019,
+      "total_units": 885,
+      "gangnam_minutes": 50,
+      "gangnam_transport": "3호선→2호선",
+      "nearest_station": "지축역",
+      "station_walk_min": 3,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "10.1~10.4억",
+      "listings": [
+        {
+          "floor": "12/",
+          "price": 10.07,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "21/",
+          "price": 10.325,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "8/",
+          "price": 10.2,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "11/",
+          "price": 10.3,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "27/",
+          "price": 10.35,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "27/",
+          "price": 10.35,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "9/",
+          "price": 10.2,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "26/",
+          "price": 10.4,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "23/",
+          "price": 10.4,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "21/",
+          "price": 10.35,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "23/",
+          "price": 10.25,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "26/",
+          "price": 10.38,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "성복역롯데캐슬클라시엘_84A",
+      "name": "성복역롯데캐슬클라시엘",
+      "region": "경기 용인시 수지구 성복동",
+      "address": "용인시 수지구 성복동 성복1로 35",
+      "type": "84A",
+      "area_sqm": 84.95,
+      "built_year": 2021,
+      "total_units": 885,
+      "gangnam_minutes": 40,
+      "gangnam_transport": "신분당선 직통",
+      "nearest_station": "성복역",
+      "station_walk_min": 3,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "11.5억",
+      "listings": [
+        {
+          "floor": "2/",
+          "price": 10.45,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "2/",
+          "price": 11.27,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "13/",
+          "price": 11.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "래미안하이어스_84A",
+      "name": "래미안하이어스",
+      "region": "경기 군포시 산본동",
+      "address": "군포시 산본동 금산로 91",
+      "type": "84A",
+      "area_sqm": 84.95,
+      "built_year": 2010,
+      "total_units": 855,
+      "gangnam_minutes": 40,
+      "gangnam_transport": "4호선→2호선",
+      "nearest_station": "산본역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "9.5~10.8억",
+      "listings": [
+        {
+          "floor": "33/",
+          "price": 10.35,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "19/",
+          "price": 10.15,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "19/",
+          "price": 10.6,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "17/",
+          "price": 10.7,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "24/",
+          "price": 10.48,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "2/",
+          "price": 9.65,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "19/",
+          "price": 10.25,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "23/",
+          "price": 10.15,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "7/",
+          "price": 9.55,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "18/",
+          "price": 10.05,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "8/",
+          "price": 10.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "7/",
+          "price": 9.85,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "8/",
+          "price": 10.3,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "5/",
+          "price": 10.33,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "13/",
+          "price": 10.4,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "26/",
+          "price": 9.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "26/",
+          "price": 10.3,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "16/",
+          "price": 9.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "24/",
+          "price": 10.6,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "32/",
+          "price": 10.4,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "31/",
+          "price": 10.8,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "20/",
+          "price": 9.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "7/",
+          "price": 10.12,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "24/",
+          "price": 10.75,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "미사레스티아_84A",
+      "name": "미사레스티아",
+      "region": "경기 하남시 망월동",
+      "address": "하남시 망월동 미사강변동로 20",
+      "type": "84A",
+      "area_sqm": 84.9917,
+      "built_year": 2017,
+      "total_units": 855,
+      "gangnam_minutes": 50,
+      "gangnam_transport": "5호선→2호선",
+      "nearest_station": "미사역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "10.5~11.5억",
+      "listings": [
+        {
+          "floor": "12/",
+          "price": 11.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "20/",
+          "price": 11.35,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "2/",
+          "price": 10.7,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "5/",
+          "price": 11.2,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "15/",
+          "price": 11.3,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "3/",
+          "price": 10.4,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "11/",
+          "price": 11.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "21/",
+          "price": 10.95,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "29/",
+          "price": 10.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "5/",
+          "price": 10.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "28/",
+          "price": 10.89,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "21/",
+          "price": 10.95,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "미사레스티아_60A",
+      "name": "미사레스티아",
+      "region": "경기 하남시 망월동",
+      "address": "하남시 망월동 미사강변동로 20",
+      "type": "60A",
+      "area_sqm": 60.8988,
+      "built_year": 2017,
+      "total_units": 855,
+      "gangnam_minutes": 50,
+      "gangnam_transport": "5호선→2호선",
+      "nearest_station": "미사역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
       "map_image": null,
       "price_range": "10.0억",
       "listings": [
         {
-          "floor": "12/30",
+          "floor": "21/",
           "price": 10.0,
-          "memo": "정남향 / 깨끗한 상태",
-          "naver_url": "https://land.naver.com/3",
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "평촌자이아이파크_84A",
+      "name": "평촌자이아이파크",
+      "region": "경기 안양시 동안구 비산동",
+      "address": "안양시 동안구 비산동 비산로 22",
+      "type": "84A",
+      "area_sqm": 84.989,
+      "built_year": 2021,
+      "total_units": 825,
+      "gangnam_minutes": 35,
+      "gangnam_transport": "4호선→2호선",
+      "nearest_station": "평촌역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "10.0~11.3억",
+      "listings": [
+        {
+          "floor": "16/",
+          "price": 10.98,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "17/",
+          "price": 10.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "29/",
+          "price": 11.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "4/",
+          "price": 11.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "19/",
+          "price": 11.35,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "21/",
+          "price": 11.15,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "12/",
+          "price": 10.8,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "5/",
+          "price": 10.7,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "4/",
+          "price": 10.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "7/",
+          "price": 10.8,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "평촌자이아이파크_75A",
+      "name": "평촌자이아이파크",
+      "region": "경기 안양시 동안구 비산동",
+      "address": "안양시 동안구 비산동 비산로 22",
+      "type": "75A",
+      "area_sqm": 75.9442,
+      "built_year": 2021,
+      "total_units": 825,
+      "gangnam_minutes": 35,
+      "gangnam_transport": "4호선→2호선",
+      "nearest_station": "평촌역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "9.7~10.5억",
+      "listings": [
+        {
+          "floor": "11/",
+          "price": 10.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "5/",
+          "price": 9.7,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "16/",
+          "price": 9.8,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "9/",
+          "price": 9.72,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "의왕내손e편한세상_84A",
+      "name": "의왕내손e편한세상",
+      "region": "경기 의왕시 내손동",
+      "address": "의왕시 내손동 내손중앙로 11",
+      "type": "84A",
+      "area_sqm": 84.761,
+      "built_year": 2012,
+      "total_units": 810,
+      "gangnam_minutes": 40,
+      "gangnam_transport": "4호선→2호선",
+      "nearest_station": "의왕역",
+      "station_walk_min": 10,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "10.2~10.6억",
+      "listings": [
+        {
+          "floor": "6/",
+          "price": 10.6,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "23/",
+          "price": 10.2,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "의왕내손e편한세상_84A",
+      "name": "의왕내손e편한세상",
+      "region": "경기 의왕시 내손동",
+      "address": "의왕시 내손동 내손로 70-14",
+      "type": "84A",
+      "area_sqm": 84.92,
+      "built_year": 2012,
+      "total_units": 810,
+      "gangnam_minutes": 40,
+      "gangnam_transport": "4호선→2호선",
+      "nearest_station": "의왕역",
+      "station_walk_min": 10,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "9.5~9.8억",
+      "listings": [
+        {
+          "floor": "9/",
+          "price": 9.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "4/",
+          "price": 9.8,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "11/",
+          "price": 9.8,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "의왕내손e편한세상_84A",
+      "name": "의왕내손e편한세상",
+      "region": "경기 의왕시 내손동",
+      "address": "의왕시 내손동 내손로 57",
+      "type": "84A",
+      "area_sqm": 84.761,
+      "built_year": 2012,
+      "total_units": 810,
+      "gangnam_minutes": 40,
+      "gangnam_transport": "4호선→2호선",
+      "nearest_station": "의왕역",
+      "station_walk_min": 10,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "9.9~11.0억",
+      "listings": [
+        {
+          "floor": "1/",
+          "price": 9.8,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "13/",
+          "price": 10.97,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "11/",
+          "price": 10.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "22/",
+          "price": 10.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "17/",
+          "price": 9.94,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "의왕내손e편한세상_84A",
+      "name": "의왕내손e편한세상",
+      "region": "경기 의왕시 내손동",
+      "address": "의왕시 내손동 내손로 88-13",
+      "type": "84A",
+      "area_sqm": 84.92,
+      "built_year": 2012,
+      "total_units": 810,
+      "gangnam_minutes": 40,
+      "gangnam_transport": "4호선→2호선",
+      "nearest_station": "의왕역",
+      "station_walk_min": 10,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "10.0억",
+      "listings": [
+        {
+          "floor": "4/",
+          "price": 9.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "9/",
+          "price": 10.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "주공13_84A",
+      "name": "주공13",
+      "region": "경기 광명시 철산동",
+      "address": "광명시 철산동 철산로 57",
+      "type": "84A",
+      "area_sqm": 84.77,
+      "built_year": 1986,
+      "total_units": 780,
+      "gangnam_minutes": 35,
+      "gangnam_transport": "7호선→2호선",
+      "nearest_station": "철산역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "11.0억",
+      "listings": [
+        {
+          "floor": "4/",
+          "price": 11.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "14/",
+          "price": 11.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "주공13_73A",
+      "name": "주공13",
+      "region": "경기 광명시 철산동",
+      "address": "광명시 철산동 철산로 57",
+      "type": "73A",
+      "area_sqm": 73.09,
+      "built_year": 1986,
+      "total_units": 780,
+      "gangnam_minutes": 35,
+      "gangnam_transport": "7호선→2호선",
+      "nearest_station": "철산역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "11.0억",
+      "listings": [
+        {
+          "floor": "2/",
+          "price": 9.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "12/",
+          "price": 11.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "래미안장안2차_81A",
+      "name": "래미안장안2차",
+      "region": "서울 동대문구",
+      "address": "동대문구 장안동 장안벚꽃로 167",
+      "type": "81A",
+      "area_sqm": 81.05,
+      "built_year": 2007,
+      "total_units": 735,
+      "gangnam_minutes": 25,
+      "gangnam_transport": "2호선 환승",
+      "nearest_station": "장안역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "10.8~11.5억",
+      "listings": [
+        {
+          "floor": "8/",
+          "price": 11.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "19/",
+          "price": 10.8,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "6/",
+          "price": 11.2,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "래미안장안2차_64A",
+      "name": "래미안장안2차",
+      "region": "서울 동대문구",
+      "address": "동대문구 장안동 장안벚꽃로 167",
+      "type": "64A",
+      "area_sqm": 64.85,
+      "built_year": 2007,
+      "total_units": 735,
+      "gangnam_minutes": 25,
+      "gangnam_transport": "2호선 환승",
+      "nearest_station": "장안역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "10.9~11.0억",
+      "listings": [
+        {
+          "floor": "20/",
+          "price": 11.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "6/",
+          "price": 10.9,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "4/",
+          "price": 10.1,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        }
+      ]
+    },
+    {
+      "id": "북한산푸르지오_84A",
+      "name": "북한산푸르지오",
+      "region": "서울 은평구",
+      "address": "은평구 녹번동 통일로 660",
+      "type": "84A",
+      "area_sqm": 84.99,
+      "built_year": 2015,
+      "total_units": 720,
+      "gangnam_minutes": 40,
+      "gangnam_transport": "3호선→2호선",
+      "nearest_station": "녹번역",
+      "station_walk_min": 3,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "10.8~11.5억",
+      "listings": [
+        {
+          "floor": "9/",
+          "price": 11.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "19/",
+          "price": 11.3,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "17/",
+          "price": 10.9,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "10/",
+          "price": 10.85,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "17/",
+          "price": 11.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "7/",
+          "price": 11.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "2/",
+          "price": 10.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        }
+      ]
+    },
+    {
+      "id": "힐스테이트다산_84A",
+      "name": "힐스테이트다산",
+      "region": "경기 남양주시 다산동",
+      "address": "남양주시 다산동 다산순환로 365",
+      "type": "84A",
+      "area_sqm": 84.5649,
+      "built_year": 2018,
+      "total_units": 690,
+      "gangnam_minutes": 55,
+      "gangnam_transport": "경의중앙→2호선",
+      "nearest_station": "다산역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "9.5~10.6억",
+      "listings": [
+        {
+          "floor": "26/",
+          "price": 10.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "9/",
+          "price": 10.27,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "15/",
+          "price": 9.85,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "8/",
+          "price": 9.8,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "13/",
+          "price": 9.8,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "17/",
+          "price": 10.6,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "19/",
+          "price": 9.7,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "9/",
+          "price": 10.3,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "12/",
+          "price": 9.75,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "22/",
+          "price": 10.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "12/",
+          "price": 10.2,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "28/",
+          "price": 10.24,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "12/",
+          "price": 9.97,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "26/",
+          "price": 9.9,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "22/",
+          "price": 9.78,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "10/",
+          "price": 10.4,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "20/",
+          "price": 9.84,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "15/",
+          "price": 9.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "19/",
+          "price": 9.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "5/",
+          "price": 9.58,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "16/",
+          "price": 10.4,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "24/",
+          "price": 9.55,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "등촌동아이파크_84A",
+      "name": "등촌동아이파크",
+      "region": "서울 강서구",
+      "address": "강서구 등촌동 등촌로 163",
+      "type": "84A",
+      "area_sqm": 84.7556,
+      "built_year": 2005,
+      "total_units": 675,
+      "gangnam_minutes": 40,
+      "gangnam_transport": "9호선→2호선",
+      "nearest_station": "등촌역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "10.5~10.9억",
+      "listings": [
+        {
+          "floor": "18/",
+          "price": 10.9,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "18/",
+          "price": 10.9,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "20/",
+          "price": 10.85,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "1/",
+          "price": 9.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "14/",
+          "price": 10.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "삼익파크맨션_63A",
+      "name": "삼익파크맨션",
+      "region": "서울 강동구",
+      "address": "강동구 길동 명일로 286",
+      "type": "63A",
+      "area_sqm": 63.32,
+      "built_year": 1983,
+      "total_units": 660,
+      "gangnam_minutes": 35,
+      "gangnam_transport": "5호선→2호선",
+      "nearest_station": "길동역",
+      "station_walk_min": 3,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "11.5억",
+      "listings": [
+        {
+          "floor": "9/",
+          "price": 11.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "힐스테이트중동_84A",
+      "name": "힐스테이트중동",
+      "region": "경기 부천시 원미구 중동",
+      "address": "부천시 원미구 중동 길주로 234",
+      "type": "84A",
+      "area_sqm": 84.9793,
+      "built_year": 2022,
+      "total_units": 660,
+      "gangnam_minutes": 40,
+      "gangnam_transport": "7호선→2호선",
+      "nearest_station": "중동역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "10.4~11.3억",
+      "listings": [
+        {
+          "floor": "30/",
+          "price": 10.85,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "31/",
+          "price": 10.9,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "47/",
+          "price": 11.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "26/",
+          "price": 11.3,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "12/",
+          "price": 11.3,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "34/",
+          "price": 10.75,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "21/",
+          "price": 10.45,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "7/",
+          "price": 10.45,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "월계센트럴아이파크_84A",
+      "name": "월계센트럴아이파크",
+      "region": "서울 노원구",
+      "address": "노원구 월계동 초안산로2라길 26",
+      "type": "84A",
+      "area_sqm": 84.99,
+      "built_year": 2020,
+      "total_units": 600,
+      "gangnam_minutes": 45,
+      "gangnam_transport": "1호선→2호선",
+      "nearest_station": "월계역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "10.9~11.5억",
+      "listings": [
+        {
+          "floor": "9/",
+          "price": 11.3,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "13/",
+          "price": 11.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "3/",
+          "price": 10.7,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "3/",
+          "price": 10.7,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "22/",
+          "price": 11.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "11/",
+          "price": 11.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "11/",
+          "price": 11.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "5/",
+          "price": 10.68,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "7/",
+          "price": 10.9,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "삼환_84A",
+      "name": "삼환",
+      "region": "서울 영등포구",
+      "address": "영등포구 신길동 여의대방로43나길 25",
+      "type": "84A",
+      "area_sqm": 84.84,
+      "built_year": 1997,
+      "total_units": 585,
+      "gangnam_minutes": 25,
+      "gangnam_transport": "7호선→2호선",
+      "nearest_station": "신길역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "9.8~10.6억",
+      "listings": [
+        {
+          "floor": "6/",
+          "price": 10.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "21/",
+          "price": 10.55,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "21/",
+          "price": 10.55,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "11/",
+          "price": 10.1,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "13/",
+          "price": 10.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "17/",
+          "price": 10.1,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "5/",
+          "price": 9.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "18/",
+          "price": 9.8,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "18/",
+          "price": 9.8,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "현대_84A",
+      "name": "현대",
+      "region": "서울 동작구",
+      "address": "동작구 신대방동 여의대방로 28",
+      "type": "84A",
+      "area_sqm": 84.57,
+      "built_year": 1996,
+      "total_units": 300,
+      "gangnam_minutes": 20,
+      "gangnam_transport": "7호선→2호선",
+      "nearest_station": "신대방역",
+      "station_walk_min": 7,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "10.0~11.1억",
+      "listings": [
+        {
+          "floor": "11/",
+          "price": 10.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "1/",
+          "price": 11.25,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "8/",
+          "price": 11.05,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "독립문삼호_75A",
+      "name": "독립문삼호",
+      "region": "서울 서대문구",
+      "address": "서대문구 영천동 독립문로 10",
+      "type": "75A",
+      "area_sqm": 75.66,
+      "built_year": 1995,
+      "total_units": 540,
+      "gangnam_minutes": 35,
+      "gangnam_transport": "3호선→2호선",
+      "nearest_station": "독립문역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "9.7~10.0억",
+      "listings": [
+        {
+          "floor": "18/",
+          "price": 9.65,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "18/",
+          "price": 9.65,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "18/",
+          "price": 9.65,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "18/",
+          "price": 9.65,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "12/",
+          "price": 10.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "독립문삼호_84A",
+      "name": "독립문삼호",
+      "region": "서울 서대문구",
+      "address": "서대문구 영천동 독립문로 10",
+      "type": "84A",
+      "area_sqm": 84.78,
+      "built_year": 1995,
+      "total_units": 540,
+      "gangnam_minutes": 35,
+      "gangnam_transport": "3호선→2호선",
+      "nearest_station": "독립문역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "10.3~10.6억",
+      "listings": [
+        {
+          "floor": "9/",
+          "price": 10.44,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "8/",
+          "price": 10.4,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "10/",
+          "price": 10.35,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "12/",
+          "price": 10.55,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "3/",
+          "price": 9.8,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        }
+      ]
+    },
+    {
+      "id": "롯데캐슬_84A",
+      "name": "롯데캐슬",
+      "region": "서울 중구",
+      "address": "중구 황학동 청계천로 400",
+      "type": "84A",
+      "area_sqm": 84.89,
+      "built_year": 2008,
+      "total_units": 525,
+      "gangnam_minutes": 25,
+      "gangnam_transport": "2/6호선→2호선",
+      "nearest_station": "신당역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "11.0~11.5억",
+      "listings": [
+        {
+          "floor": "28/",
+          "price": 11.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "25/",
+          "price": 11.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "10/",
+          "price": 11.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "8/",
+          "price": 11.25,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "11/",
+          "price": 11.3,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "32/",
+          "price": 11.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "22/",
+          "price": 11.3,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "금천롯데캐슬골드파크1차_71A",
+      "name": "금천롯데캐슬골드파크1차",
+      "region": "서울 금천구",
+      "address": "금천구 독산동 벚꽃로 40",
+      "type": "71A",
+      "area_sqm": 71.39,
+      "built_year": 2016,
+      "total_units": 510,
+      "gangnam_minutes": 35,
+      "gangnam_transport": "1호선→2호선",
+      "nearest_station": "독산역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "10.8억",
+      "listings": [
+        {
+          "floor": "29/",
+          "price": 10.8,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "5/",
+          "price": 10.68,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        }
+      ]
+    },
+    {
+      "id": "금천롯데캐슬골드파크1차_84A",
+      "name": "금천롯데캐슬골드파크1차",
+      "region": "서울 금천구",
+      "address": "금천구 독산동 벚꽃로 40",
+      "type": "84A",
+      "area_sqm": 84.8114,
+      "built_year": 2016,
+      "total_units": 510,
+      "gangnam_minutes": 35,
+      "gangnam_transport": "1호선→2호선",
+      "nearest_station": "독산역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "11.3억",
+      "listings": [
+        {
+          "floor": "5/",
+          "price": 11.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "2/",
+          "price": 11.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "2/",
+          "price": 11.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "25/",
+          "price": 11.3,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "4/",
+          "price": 11.35,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        }
+      ]
+    },
+    {
+      "id": "금천롯데캐슬골드파크1차_72A",
+      "name": "금천롯데캐슬골드파크1차",
+      "region": "서울 금천구",
+      "address": "금천구 독산동 벚꽃로 40",
+      "type": "72A",
+      "area_sqm": 72.5249,
+      "built_year": 2016,
+      "total_units": 510,
+      "gangnam_minutes": 35,
+      "gangnam_transport": "1호선→2호선",
+      "nearest_station": "독산역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "10.9~11.4억",
+      "listings": [
+        {
+          "floor": "20/",
+          "price": 11.4,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "29/",
+          "price": 10.9,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "길음뉴타운4단지(e편한세상)_84A",
+      "name": "길음뉴타운4단지(e편한세상)",
+      "region": "서울 성북구",
+      "address": "성북구 길음동 길음로 118",
+      "type": "84A",
+      "area_sqm": 84.64,
+      "built_year": 2005,
+      "total_units": 495,
+      "gangnam_minutes": 35,
+      "gangnam_transport": "4호선→2호선",
+      "nearest_station": "길음역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "11.1억",
+      "listings": [
+        {
+          "floor": "3/",
+          "price": 11.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "10/",
+          "price": 11.1,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "우성_64A",
+      "name": "우성",
+      "region": "서울 강동구",
+      "address": "강동구 천호동 구천면로 366",
+      "type": "64A",
+      "area_sqm": 64.53,
+      "built_year": 1985,
+      "total_units": 480,
+      "gangnam_minutes": 30,
+      "gangnam_transport": "5/8호선→2호선",
+      "nearest_station": "천호역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "11.4억",
+      "listings": [
+        {
+          "floor": "10/",
+          "price": 11.4,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "1/",
+          "price": 11.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "1/",
+          "price": 10.77,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        }
+      ]
+    },
+    {
+      "id": "관악푸르지오_84A",
+      "name": "관악푸르지오",
+      "region": "서울 관악구",
+      "address": "관악구 봉천동 관악로30길 27",
+      "type": "84A",
+      "area_sqm": 84.75,
+      "built_year": 2004,
+      "total_units": 465,
+      "gangnam_minutes": 20,
+      "gangnam_transport": "2호선 직통",
+      "nearest_station": "봉천역",
+      "station_walk_min": 7,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "11.4~11.5억",
+      "listings": [
+        {
+          "floor": "12/",
+          "price": 11.4,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "3/",
+          "price": 10.7,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "15/",
+          "price": 11.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "1/",
+          "price": 10.9,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        }
+      ]
+    },
+    {
+      "id": "명일지에스아파트_84A",
+      "name": "명일지에스아파트",
+      "region": "서울 강동구",
+      "address": "강동구 명일동 상암로51길 61",
+      "type": "84A",
+      "area_sqm": 84.96,
+      "built_year": 1999,
+      "total_units": 465,
+      "gangnam_minutes": 35,
+      "gangnam_transport": "5호선→2호선",
+      "nearest_station": "명일역",
+      "station_walk_min": 3,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "9.8~10.4억",
+      "listings": [
+        {
+          "floor": "13/",
+          "price": 10.25,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "13/",
+          "price": 9.77,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "17/",
+          "price": 10.45,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "7/",
+          "price": 9.75,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "3/",
+          "price": 9.55,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "2/",
+          "price": 9.93,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "2/",
+          "price": 9.93,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "2/",
+          "price": 9.93,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        }
+      ]
+    },
+    {
+      "id": "명일지에스아파트_84A",
+      "name": "명일지에스아파트",
+      "region": "서울 강동구",
+      "address": "강동구 명일동 상암로51길 54",
+      "type": "84A",
+      "area_sqm": 84.9,
+      "built_year": 1999,
+      "total_units": 465,
+      "gangnam_minutes": 35,
+      "gangnam_transport": "5호선→2호선",
+      "nearest_station": "명일역",
+      "station_walk_min": 3,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "9.7~9.9억",
+      "listings": [
+        {
+          "floor": "16/",
+          "price": 9.7,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "15/",
+          "price": 9.9,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "백련산에스케이뷰아이파크_84A",
+      "name": "백련산에스케이뷰아이파크",
+      "region": "서울 은평구",
+      "address": "은평구 응암동 응암로30길 16",
+      "type": "84A",
+      "area_sqm": 84.9039,
+      "built_year": 2020,
+      "total_units": 450,
+      "gangnam_minutes": 45,
+      "gangnam_transport": "6호선→2호선",
+      "nearest_station": "응암역",
+      "station_walk_min": 7,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "11.3~11.5억",
+      "listings": [
+        {
+          "floor": "25/",
+          "price": 11.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "2/",
+          "price": 10.3,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "20/",
+          "price": 11.4,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "4/",
+          "price": 10.9,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "2/",
+          "price": 10.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "6/",
+          "price": 11.38,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "18/",
+          "price": 11.3,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "두산_84A",
+      "name": "두산",
+      "region": "서울 관악구",
+      "address": "관악구 봉천동 봉천로 387",
+      "type": "84A",
+      "area_sqm": 84.73,
+      "built_year": 2000,
+      "total_units": 300,
+      "gangnam_minutes": 20,
+      "gangnam_transport": "2호선 직통",
+      "nearest_station": "봉천역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "10.4~10.6억",
+      "listings": [
+        {
+          "floor": "22/",
+          "price": 10.6,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "8/",
+          "price": 10.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "23/",
+          "price": 10.58,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "5/",
+          "price": 10.0,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "9/",
+          "price": 10.42,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "8/",
+          "price": 10.45,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "두산_84A",
+      "name": "두산",
+      "region": "서울 관악구",
+      "address": "관악구 봉천동 은천로 86",
+      "type": "84A",
+      "area_sqm": 84.87,
+      "built_year": 2000,
+      "total_units": 300,
+      "gangnam_minutes": 20,
+      "gangnam_transport": "2호선 직통",
+      "nearest_station": "봉천역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "10.1~10.2억",
+      "listings": [
+        {
+          "floor": "3/",
+          "price": 9.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "9/",
+          "price": 10.2,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "7/",
+          "price": 10.1,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "8/",
+          "price": 10.25,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "태릉해링턴플레이스_74A",
+      "name": "태릉해링턴플레이스",
+      "region": "서울 노원구",
+      "address": "노원구 공릉동 공릉로34길 86",
+      "type": "74A",
+      "area_sqm": 74.95,
+      "built_year": 2022,
+      "total_units": 435,
+      "gangnam_minutes": 45,
+      "gangnam_transport": "6/7호선→2호선",
+      "nearest_station": "태릉입구역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "10.2~10.6억",
+      "listings": [
+        {
+          "floor": "3/",
+          "price": 10.4,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "6/",
+          "price": 10.6,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "16/",
+          "price": 10.25,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "17/",
+          "price": 10.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "24/",
+          "price": 10.4,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "15/",
+          "price": 10.4,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "태릉해링턴플레이스_84A",
+      "name": "태릉해링턴플레이스",
+      "region": "서울 노원구",
+      "address": "노원구 공릉동 공릉로34길 86",
+      "type": "84A",
+      "area_sqm": 84.98,
+      "built_year": 2022,
+      "total_units": 435,
+      "gangnam_minutes": 45,
+      "gangnam_transport": "6/7호선→2호선",
+      "nearest_station": "태릉입구역",
+      "station_walk_min": 5,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "11.2억",
+      "listings": [
+        {
+          "floor": "4/",
+          "price": 11.5,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "3/",
+          "price": 10.77,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "2/",
+          "price": 11.1,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "8/",
+          "price": 11.15,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "한양수자인사가정파크_84A",
+      "name": "한양수자인사가정파크",
+      "region": "서울 중랑구",
+      "address": "중랑구 면목동 사가정로72길 26",
+      "type": "84A",
+      "area_sqm": 84.9979,
+      "built_year": 2019,
+      "total_units": 420,
+      "gangnam_minutes": 40,
+      "gangnam_transport": "7호선→2호선",
+      "nearest_station": "사가정역",
+      "station_walk_min": 3,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "11.2~11.3억",
+      "listings": [
+        {
+          "floor": "5/",
+          "price": 10.77,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "12/",
+          "price": 11.3,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "13/",
+          "price": 11.25,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        }
+      ]
+    },
+    {
+      "id": "한양수자인사가정파크_74A",
+      "name": "한양수자인사가정파크",
+      "region": "서울 중랑구",
+      "address": "중랑구 면목동 사가정로72길 26",
+      "type": "74A",
+      "area_sqm": 74.918,
+      "built_year": 2019,
+      "total_units": 420,
+      "gangnam_minutes": 40,
+      "gangnam_transport": "7호선→2호선",
+      "nearest_station": "사가정역",
+      "station_walk_min": 3,
+      "mart": "",
+      "commercial": "",
+      "nimby": "없음",
+      "schools": "",
+      "map_image": null,
+      "price_range": "9.8~9.9억",
+      "listings": [
+        {
+          "floor": "5/",
+          "price": 9.97,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": true
+        },
+        {
+          "floor": "11/",
+          "price": 9.9,
+          "memo": "실거래가 기준",
+          "naver_url": "",
+          "is_low_floor": false
+        },
+        {
+          "floor": "14/",
+          "price": 9.75,
+          "memo": "실거래가 기준",
+          "naver_url": "",
           "is_low_floor": false
         }
       ]
